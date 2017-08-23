@@ -1,0 +1,4 @@
+---
+applications:
+- name: phpure
+  memory: 128M
