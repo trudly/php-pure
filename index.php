@@ -7,7 +7,7 @@ $cmd = "./pure $b $f $t";
 echo '<pre>';
 echo $cmd;
 echo shell_exec('ls -la');
-echo shell_exec('./pri 2>&1');
+echo exec('./pri 2>&1');
 echo '</pre>';
 //$output = shell_exec($cmd);
 //if(!$output)
