@@ -1,4 +1,4 @@
 ---
 applications:
 - name: phpure
-  memory: 128M
+  memory: 256M
