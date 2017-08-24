@@ -5,6 +5,7 @@ header('Content-Type: application/json');
 parse_str($_SERVER['QUERY_STRING']);
 $cmd = "./pure $b $f $t";
 echo '<pre>';
+echo shell_exec('lscpu');
 echo $cmd;
 echo shell_exec('ls -la');
 echo exec('./pri 2>&1');
